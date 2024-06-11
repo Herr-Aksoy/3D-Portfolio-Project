@@ -1,9 +1,6 @@
-
-
 provider "aws" {
   region  = "us-east-1"
 }
-
 
 resource "aws_instance" "Project-Portfolio" {
   ami           = "ami-00beae93a2d981137"
@@ -17,7 +14,9 @@ resource "aws_instance" "Project-Portfolio" {
   }
 }
 
-
+resource "aws_vpc" "main" {
+  cidr_block = "10.0.0.0/16"
+}
 
 resource "aws_key_pair" "PPkey" {
   key_name   = "PPkey"
