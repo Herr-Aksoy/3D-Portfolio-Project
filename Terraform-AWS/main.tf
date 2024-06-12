@@ -59,3 +59,7 @@ resource "aws_security_group" "tf-PP-sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+
+output "Project-Portfolio-public_ip" {
+  value = aws_instance.Project-Portfolio.public_ip
+}
