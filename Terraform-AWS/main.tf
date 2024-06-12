@@ -6,12 +6,14 @@ resource "aws_instance" "Project-Portfolio" {
   ami           = "ami-00beae93a2d981137"
   instance_type = "t2.micro"
   security_groups = [aws_security_group.tf-PP-sg.name]
-  key_name      = aws_key_pair.PPkey.key_name        # write your pem file without .pem extension>
+  key_name      = local_file.PPkey.filename  
   user_data = "${file("userdata.sh")}"
-  
 
   tags = {
     "Name" = "Project-Portfolio"
+  }
+  provisioner "local-exec" {
+    command = "chmod 400 ${local_file.PPkey.filename}"
   }
 }
 
@@ -20,8 +22,9 @@ resource "aws_vpc" "main" {
 }
 
 resource "aws_key_pair" "PPkey" {
-  key_name   = "PPkey"
+  key_name   = "PPkey.pem"
   public_key = tls_private_key.PPrsa.public_key_openssh
+  
 }
 
 resource "tls_private_key" "PPrsa" {
@@ -61,6 +64,6 @@ resource "aws_security_group" "tf-PP-sg" {
   }
 }
 
-output "Project-Portfolio-public_ip" {
-  value = aws_instance.Project-Portfolio.public_ip
+output "Project-Portfolio-SSH-connect" {
+  value = "ssh ec2-user@${aws_instance.Project-Portfolio.public_ip} -i ${local_file.PPkey.filename}"
 }
