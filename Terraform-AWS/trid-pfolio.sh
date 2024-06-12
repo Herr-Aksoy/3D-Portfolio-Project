@@ -7,3 +7,5 @@ systemctl start docker
 systemctl enable docker
 usermod -aG docker ubuntu
 newgrp docker
+yum install git -y
+git clone https://github.com/Herr-Aksoy/3D-Portfolio-Project.git
