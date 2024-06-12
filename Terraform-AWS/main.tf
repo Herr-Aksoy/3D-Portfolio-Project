@@ -6,8 +6,9 @@ resource "aws_instance" "Project-Portfolio" {
   ami           = "ami-00beae93a2d981137"
   instance_type = "t2.micro"
   security_groups = [aws_security_group.tf-PP-sg.name]
-  key_name      = local_file.PPkey.filename   # write your pem file without .pem extension>
+  key_name      = aws_key_pair.PPkey.key_name        # write your pem file without .pem extension>
   user_data = "${file("userdata.sh")}"
+  
 
   tags = {
     "Name" = "Project-Portfolio"
@@ -30,7 +31,7 @@ resource "tls_private_key" "PPrsa" {
 
 resource "local_file" "PPkey" {
   content  = tls_private_key.PPrsa.private_key_pem
-  filename = "PPkey"
+  filename = "PPkey.pem"
 }
 
 resource "aws_security_group" "tf-PP-sg" {
