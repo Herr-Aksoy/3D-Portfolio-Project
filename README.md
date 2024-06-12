@@ -6,7 +6,11 @@
 
 In order to push images to the Docker Hub repo, we create secrets in the Githup account and use them in the file.
 
-![parameters](project-images/repo-images/project-images.png)
+![parameters](project-images/repo-images/secrets-actions.png)
+
+We create a build-and-push.yaml file to use Github Action. And we specify the secrets inside.  
+
+**❗ Sample Code line**
 
 ```sh
 
