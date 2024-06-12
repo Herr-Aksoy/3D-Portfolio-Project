@@ -9,3 +9,7 @@ curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compo
 -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 yum install git -y
+
+# pip icin ekstra ayarlamalar
+yum install python3 python3-pip
+pip install Flask

@@ -61,6 +61,7 @@ resource "aws_security_group" "tf-PP-sg" {
   }
 }
 
-output "Project-Portfolio-public_ip" {
-  value = aws_instance.Project-Portfolio.public_ip
+
+output "ssh-command" {
+  value = "ssh -i '${aws_key_pair.PPkey.key_name}.pem' ec2-user@${aws_instance.Project-Portfolio.public_ip}"
 }
