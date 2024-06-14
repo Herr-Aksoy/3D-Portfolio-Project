@@ -1,5 +1,46 @@
 # 3D-Portfolio-Project
 
+# Tech Used
+
+<table>
+  <tr>
+    <td><strong>Infrastructure:</strong></td>
+    <td>AWS (Amazon Web Services), Terraform</td>
+  </tr>
+  <tr>
+    <td><strong>Containerization & Orchestration:</strong></td>
+    <td>Docker, Docker-Compose, Kubernetes</td>
+  </tr>
+  <tr>
+    <td><strong>CI/CD Tools:</strong></td>
+    <td>Jenkins, GitHub Actions, Azure DevOps</td>
+  </tr>
+  <tr>
+    <td><strong>Configuration Management:</strong></td>
+    <td>Ansible, Crossplane</td>
+  </tr>
+  <tr>
+    <td><strong>Frontend:</strong></td>
+    <td>HTML, CSS, JavaScript, Angular, React, Bootstrap</td>
+  </tr>
+  <tr>
+    <td><strong>Backend:</strong></td>
+    <td>Python, Flask</td>
+  </tr>
+  <tr>
+    <td><strong>Databases:</strong></td>
+    <td>MySQL, PostgreSQL, MSSQL</td>
+  </tr>
+  <tr>
+    <td><strong>Version Control:</strong></td>
+    <td>Git, GitHub</td>
+  </tr>
+  <tr>
+    <td><strong>Cloud Services:</strong></td>
+    <td>AWS EC2, AWS S3, AWS RDS, AWS VPC, Azure ACR (Azure Container Registry)</td>
+  </tr>
+</table>
+
 
 
 ## Creating .github\workflows\build-and-push.yml
