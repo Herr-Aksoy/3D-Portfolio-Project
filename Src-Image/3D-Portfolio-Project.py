@@ -8,7 +8,7 @@ app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'updateddevops@gmail.com'
-app.config['MAIL_PASSWORD'] = 'your-gmail-password'  # Gmail hesabınızın şifresi
+app.config['MAIL_PASSWORD'] = 'your-gmail-password'  # Gmail de uygulama sifresi olusturmalisin
 
 mail = Mail(app)        # Bu kisim
 
@@ -32,9 +32,9 @@ def send_email():
             msg.body = f"Name: {full_name}\nEmail: {email}\nMessage:\n{message}"
 
             mail.send(msg)
-            return 'E-posta başarıyla gönderildi!'
+            return 'The e-mail was sent successfully!'
         except Exception as e:
-            return f'Hata oluştu: {str(e)}'
+            return f'Error occurred: {str(e)}'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)

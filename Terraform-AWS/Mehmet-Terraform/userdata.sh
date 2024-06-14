@@ -11,6 +11,6 @@ chmod +x /usr/local/bin/docker-compose
 yum install git -y
 
 # pip icin ekstra ayarlamalar
-sudo yum install python3 python3-pip
+sudo yum install python3 python3-pip -y
 sudo pip install Flask
 sudo pip install Flask-Mail
