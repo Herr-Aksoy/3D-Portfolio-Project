@@ -13,3 +13,4 @@ yum install git -y
 # pip icin ekstra ayarlamalar
 sudo yum install python3 python3-pip
 sudo pip install Flask
+sudo pip install Flask-Mail
