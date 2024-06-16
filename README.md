@@ -2,17 +2,49 @@
 
 <table style="width:100%; text-align: center;">
   <tr>
-    <td><img src="project-images/readme-images/AhmetAksoy.png" alt="Ahmet Aksoy" width="250"></td>
-    <td><img src="project-images/readme-images/Mehmet.png" alt="Mehmet" width="250"></td>
-    <td><img src="project-images/readme-images/AkifGüngör.png" alt="Akif Güngör" width="250"></td>
+    <td>
+      <img src="project-images/readme-images/AhmetAksoy.png" alt="Ahmet Aksoy" width="250"><br>
+      <a href="https://www.linkedin.com/in/ahmetaksoy" title="LinkedIn Profili">Ahmet Aksoy</a>
+    </td>
+    <td>
+      <img src="project-images/readme-images/Mehmet.png" alt="Mehmet" width="250"><br>
+      <a href="https://www.linkedin.com/in/mehmet" title="LinkedIn Profili">Mehmet</a>
+    </td>
+    <td>
+      <img src="project-images/readme-images/AkifGüngör.png" alt="Akif Güngör" width="250"><br>
+      <a href="https://www.linkedin.com/in/akifgungor" title="LinkedIn Profili">Akif Güngör</a>
+    </td>
   </tr>
   <tr>
-    <td><a href="https://www.linkedin.com/in/ahmetaksoy" title="LinkedIn Profili" style="display: block;">Ahmet Aksoy</a></td>
-    <td><a href="https://www.linkedin.com/in/mehmet" title="LinkedIn Profili" style="display: block;">Mehmet</a></td>
-    <td><a href="https://www.linkedin.com/in/akifgungor" title="LinkedIn Profili" style="display: block;">Akif Güngör</a></td>
+    <td colspan="3">
+      <img src="project-images/readme-images/contributions.png" alt="Contributions to main" width="750">
+    </td>
+  </tr>
+</table>
+
+
+<table style="width:100%;">
+  <tr>
+    <td style="text-align:center;">
+      <img src="project-images/readme-images/AhmetAksoy.png" alt="Ahmet Aksoy" width="250">
+      <br>
+      <a href="https://www.linkedin.com/in/ahmetaksoy" title="LinkedIn Profili">Ahmet Aksoy</a>
+    </td>
+    <td style="text-align:center;">
+      <img src="project-images/readme-images/Mehmet.png" alt="Mehmet" width="250">
+      <br>
+      <a href="https://www.linkedin.com/in/mehmet" title="LinkedIn Profili">Mehmet</a>
+    </td>
+    <td style="text-align:center;">
+      <img src="project-images/readme-images/AkifGüngör.png" alt="Akif Güngör" width="250">
+      <br>
+      <a href="https://www.linkedin.com/in/akifgungor" title="LinkedIn Profili">Akif Güngör</a>
+    </td>
   </tr>
   <tr>
-    <td colspan="3"><img src="project-images/readme-images/contributions.png" alt="Contributions to main" width="750"></td>
+    <td colspan="3" style="text-align:center;">
+      <img src="project-images/readme-images/contributions.png" alt="Contributions to main" width="750">
+    </td>
   </tr>
 </table>
 
