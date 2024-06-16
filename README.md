@@ -10,9 +10,9 @@
     <td><img src="project-images/readme-images/AkifGüngör.png" alt="Akif Güngör" width="250"></td>
   </tr>
   <tr>
-    <td><a href="https://www.linkedin.com/in/aksoy-ahmet/" title="LinkedIn Profili">Ahmet Aksoy</a></td>
-    <td><a href="https://www.linkedin.com/in/mehmet8sever/" title="LinkedIn Profili">Mehmet Sever</a></td>
-    <td><a href="https://www.linkedin.com/in/akifgungor" title="LinkedIn Profili">Akif Güngör</a></td>
+    <td><a href="https://www.linkedin.com/in/aksoy-ahmet/" title="LinkedIn Profile" style="display: block; text-align: center;">Ahmet Aksoy</a></td>
+    <td><a href="https://www.linkedin.com/in/mehmet8sever/" title="LinkedIn Profile">Mehmet Sever</a></td>
+    <td><a href="" title="LinkedIn Profile">Akif Güngör</a></td>
   </tr>
 </table>
 <br><br>
