@@ -1,31 +1,10 @@
 # 3D-Portfolio-Project
 
-<table style="width:100%;">
-  <tr>
-    <td style="text-align:center;">
-      <img src="project-images/readme-images/AhmetAksoy.png" alt="Ahmet Aksoy" width="250">
-      <br>
-      <a href="https://www.linkedin.com/in/aksoy-ahmet/" title="LinkedIn Profili">Ahmet Aksoy</a>
-    </td>
-    <td style="text-align:center;">
-      <img src="project-images/readme-images/MehmetSever.png" alt="Mehmet Sever" width="250">
-      <br>
-      <a href="https://www.linkedin.com/in/mehmet8sever/" title="LinkedIn Profili">Mehmet Sever</a>
-    </td>
-    <td style="text-align:center;">
-      <img src="project-images/readme-images/AkifGüngör.png" alt="Akif Güngör" width="250">
-      <br>
-      <a href="https://www.linkedin.com/in/akifgungor" title="LinkedIn Profili">Akif Güngör</a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="3" style="text-align:center;">
-      <img src="project-images/readme-images/contributions.png" alt="Contributions to main" width="750">
-    </td>
-  </tr>
-</table>
 
 <table>
+  <tr>
+    <td><strong><a href="#" title="LinkedIn Profili">Project Owners</a></strong></td>
+  </tr>
   <tr>
     <td><img src="project-images/readme-images/AhmetAksoy.png" alt="Ahmet Aksoy" width="250"></td>
     <td><img src="project-images/readme-images/MehmetSever.png" alt="Mehmet Sever" width="250"></td>
@@ -44,7 +23,7 @@
 
 
 
-# Tech Used
+## Project Technologies
 
 <table>
   <tr>
