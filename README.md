@@ -14,9 +14,17 @@
     <td><a href="https://www.linkedin.com/in/mehmet8sever/" title="LinkedIn Profili">Mehmet Sever</a></td>
     <td><a href="https://www.linkedin.com/in/akifgungor" title="LinkedIn Profili">Akif Güngör</a></td>
   </tr>
-  <tr></tr>
   <tr>
     <td colspan="3"><img src="project-images/readme-images/contributions.png" alt="Contributions to main" width="750"></td>
+  </tr>
+</table>
+<br><br>
+<table>
+  <tr>
+    <td colspan="3"><img src="project-images/readme-images/contributions.png" alt="Contributions to main" width="750"></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.linkedin.com/in/aksoy-ahmet/" title="LinkedIn Profili">Ahmet Aksoy</a></td>
   </tr>
 </table>
   
