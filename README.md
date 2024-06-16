@@ -2,12 +2,17 @@
 
 <table>
   <tr>
-    <td><img src="project-images/readme-images/AhmetAksoy.png" alt="Açıklama 1" width="200"></td>
-    <td><img src="project-images/readme-images/Mehmet.png" alt="Açıklama 2" width="200"></td>
-    <td><img src="project-images/readme-images/AkifGüngör.png" alt="Açıklama 3" width="200"></td>
+    <td><img src="project-images/readme-images/AhmetAksoy.png" alt="Ahmet Aksoy" width="250"></td>
+    <td><img src="project-images/readme-images/Mehmet.png" alt="Mehmet" width="250"></td>
+    <td><img src="project-images/readme-images/AkifGüngör.png" alt="Akif Güngör" width="250"></td>
   </tr>
   <tr>
-    <td><img src="project-images/readme-images/Contributions.png " alt="Contributions to main" width="600"></td>
+    <td><a href="https://www.linkedin.com/in/ahmetaksoy">Ahmet Aksoy</a></td>
+    <td><a href="https://www.linkedin.com/in/mehmet">Mehmet</a></td>
+    <td><a href="https://www.linkedin.com/in/akifgungor">Akif Güngör</a></td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="project-images/readme-images/contributions.png" alt="Contributions to main" width="750"></td>
   </tr>
 </table>
 
