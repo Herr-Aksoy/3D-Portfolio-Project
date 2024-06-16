@@ -2,9 +2,12 @@
 
 <table>
   <tr>
-    <td><img src="URL_TO_IMAGE_1" alt="Açıklama 1" width="200"></td>
-    <td><img src="URL_TO_IMAGE_2" alt="Açıklama 2" width="200"></td>
-    <td><img src="URL_TO_IMAGE_3" alt="Açıklama 3" width="200"></td>
+    <td><img src="project-images/readme-images/AhmetAksoy.png" alt="Açıklama 1" width="200"></td>
+    <td><img src="project-images/readme-images/Mehmet.png" alt="Açıklama 2" width="200"></td>
+    <td><img src="project-images/readme-images/AkifGüngör.png" alt="Açıklama 3" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="project-images/readme-images/Contributions.png " alt="Contributions to main" width="600"></td>
   </tr>
 </table>
 
@@ -18,35 +21,27 @@
   </tr>
   <tr>
     <td><strong>Containerization & Orchestration:</strong></td>
-    <td>Docker, Docker-Compose, Kubernetes</td>
+    <td>Docker</td>
   </tr>
   <tr>
     <td><strong>CI/CD Tools:</strong></td>
-    <td>Jenkins, GitHub Actions, Azure DevOps</td>
-  </tr>
-  <tr>
-    <td><strong>Configuration Management:</strong></td>
-    <td>Ansible, Crossplane</td>
+    <td>GitHub Actions</td>
   </tr>
   <tr>
     <td><strong>Frontend:</strong></td>
-    <td>HTML, CSS, JavaScript, Angular, React, Bootstrap</td>
+    <td>HTML, CSS, JavaScript</td>
   </tr>
   <tr>
     <td><strong>Backend:</strong></td>
     <td>Python, Flask</td>
   </tr>
   <tr>
-    <td><strong>Databases:</strong></td>
-    <td>MySQL, PostgreSQL, MSSQL</td>
-  </tr>
-  <tr>
     <td><strong>Version Control:</strong></td>
-    <td>Git, GitHub</td>
+    <td>GitHub</td>
   </tr>
   <tr>
     <td><strong>Cloud Services:</strong></td>
-    <td>AWS EC2, AWS S3, AWS RDS, AWS VPC, Azure ACR (Azure Container Registry)</td>
+    <td>AWS EC2, AWS VPC</td>
   </tr>
 </table>
 
