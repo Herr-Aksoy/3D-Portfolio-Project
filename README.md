@@ -10,7 +10,7 @@
     <td><img src="project-images/readme-images/AkifGüngör.png" alt="Akif Güngör" width="250"></td>
   </tr>
   <tr>
-    <td><div style="text-align: center;"><a href="https://www.linkedin.com/in/aksoy-ahmet/" title="LinkedIn Profile">Ahmet Aksoy</a></div></td>
+    <td><a href="https://www.linkedin.com/in/aksoy-ahmet/" title="LinkedIn Profile">---------->Ahmet Aksoy<---------</a></td>
     <td><a href="https://www.linkedin.com/in/mehmet8sever/" title="LinkedIn Profile">Mehmet Sever</a></td>
     <td><a href="" title="LinkedIn Profile">Akif Güngör</a></td>
   </tr>
