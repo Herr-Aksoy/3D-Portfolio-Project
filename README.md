@@ -83,16 +83,16 @@ CI/CD (Continuous Integration/Continuous Deployment) process is a method used to
 
 How It Works?
 
-Build and Push Stage (build-and-push.yml): This stage is a YAML file configured with GitHub Actions or similar CI/CD tools. It automatically runs with every new code commit (push operation). It builds the latest version of the Docker image and pushes it to Dockerhub or another container registry.
+<strong>Build and Push Stage (build-and-push.yml):</strong> This stage is a YAML file configured with GitHub Actions or similar CI/CD tools. It automatically runs with every new code commit (push operation). It builds the latest version of the Docker image and pushes it to Dockerhub or another container registry.
 
 For example, the build-and-push.yml file may include these steps:
 
 Compiling and testing the code
 Building the Docker image
 Pushing the Docker image to Dockerhub
-Automatic Triggering: GitHub or other CI/CD tools configure this YAML file to automatically execute these steps with every new code commit. This eliminates the need for developers or teams to manually initiate these processes with each code change.
+<strong>Automatic Triggering:</strong>Automatic Triggering: GitHub or other CI/CD tools configure this YAML file to automatically execute these steps with every new code commit. This eliminates the need for developers or teams to manually initiate these processes with each code change.
 
-Sending the Latest Version to the Repository: The Docker image is automatically updated and sent to the container registry with each push operation. This ensures that the most current and functional version is always available.
+<strong>Sending the Latest Version to the Repository:</strong> The Docker image is automatically updated and sent to the container registry with each push operation. This ensures that the most current and functional version is always available.
 
 This process has become an integral part of modern software development practices, enhancing the effectiveness, reliability, and speed of software projects.
 
