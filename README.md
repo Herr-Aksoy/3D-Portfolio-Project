@@ -87,9 +87,9 @@ How It Works?
 
 For example, the build-and-push.yml file may include these steps:
 
-Compiling and testing the code
-Building the Docker image
-Pushing the Docker image to Dockerhub
+Compiling and testing the code  
+Building the Docker image  
+Pushing the Docker image to Dockerhub  
 <strong>Automatic Triggering:</strong>Automatic Triggering: GitHub or other CI/CD tools configure this YAML file to automatically execute these steps with every new code commit. This eliminates the need for developers or teams to manually initiate these processes with each code change.
 
 <strong>Sending the Latest Version to the Repository:</strong> The Docker image is automatically updated and sent to the container registry with each push operation. This ensures that the most current and functional version is always available.
