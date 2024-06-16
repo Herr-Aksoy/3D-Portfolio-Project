@@ -3,9 +3,7 @@
 <br><br>
 
 ## Project Owners
-
 <br><br>
-
 <table>
   <tr>
     <td><img src="project-images/readme-images/AhmetAksoy.png" alt="Ahmet Aksoy" width="250"></td>
