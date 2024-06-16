@@ -11,7 +11,7 @@
   </tr>
   <tr>
     <td><a href="https://www.linkedin.com/in/aksoy-ahmet/" title="LinkedIn Profile">---------->Ahmet Aksoy<----------</a></td>
-    <td><a href="https://www.linkedin.com/in/mehmet8sever/" title="LinkedIn Profile">---------->Mehmet Sever<----------</a></td>
+    <td><a href="https://www.linkedin.com/in/mehmet8sever/" title="LinkedIn Profile">---------->Mehmet Sever<---------</a></td>
     <td><a href="" title="LinkedIn Profile">----------->Akif Güngör<----------</a></td>
   </tr>
 </table>
@@ -26,6 +26,10 @@
 </table>
   
 <br><br>
+
+## Strengthen Your Professional Image with Our 3D Portfolio Project
+
+Creating our 3D-Portfolio-Project helps strengthen your personal brand and establish a professional image. By effectively showcasing your resume and achievements, you can leave a positive impression on potential employers or partners. Moreover, sharing your contact information expands your professional network and directs traffic to social media and other platforms. Regularly updating your portfolio to highlight recent projects and new skills demonstrates your current and active status. Building your own portfolio website or page allows for uniqueness and creativity, enabling you to shape design, content, and presentation according to your personal style. This empowers you to independently narrate your story and professional journey.
 
 ## Project Technologies
 
