@@ -1,10 +1,12 @@
 # 3D-Portfolio-Project
 
+<br><br>
+
+## Project Owners
+
+<br><br>
 
 <table>
-  <tr>
-    <td><strong><a href="#" title="LinkedIn Profili">Project Owners</a></strong></td>
-  </tr>
   <tr>
     <td><img src="project-images/readme-images/AhmetAksoy.png" alt="Ahmet Aksoy" width="250"></td>
     <td><img src="project-images/readme-images/MehmetSever.png" alt="Mehmet Sever" width="250"></td>
@@ -15,11 +17,14 @@
     <td><a href="https://www.linkedin.com/in/mehmet8sever/" title="LinkedIn Profili">Mehmet Sever</a></td>
     <td><a href="https://www.linkedin.com/in/akifgungor" title="LinkedIn Profili">Akif Güngör</a></td>
   </tr>
+  <br><br>
   <tr>
     <td colspan="3"><img src="project-images/readme-images/contributions.png" alt="Contributions to main" width="750"></td>
   </tr>
 </table>
-
+  
+    
+  
 
 
 
@@ -55,6 +60,12 @@
     <td>AWS EC2, AWS VPC</td>
   </tr>
 </table>
+  
+    
+      
+
+
+## Infrastructure Process
 
 
 
