@@ -14,11 +14,11 @@ jobs:
     - name: Build the Docker image
       run: docker build -t docker.io/herraksoy/projects:3D-Portfolio-Website -f Src-Image/Dockerfile Src-Image  
 
-    - name: Push Docker image to Dockerhub Public Repo
-      run: docker push docker.io/herraksoy/projects:3D-Portfolio-Website   # docker.io may not be written
-
     - name: Docker Login
       run: docker login --username ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PWD }}
+
+    - name: Push Docker image to Dockerhub Public Repo
+      run: docker push docker.io/herraksoy/projects:3D-Portfolio-Website   # docker.io may not be written
 
     - name: Push Docker image to Dockerhub Privat Repo
       run: docker push docker.io/herraksoy/team-projects:3D-Portfolio-Website
