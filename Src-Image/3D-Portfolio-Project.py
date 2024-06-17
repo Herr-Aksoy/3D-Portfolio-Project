@@ -8,7 +8,7 @@ app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'updateddevops@gmail.com'
-app.config['MAIL_PASSWORD'] = 'dtyb vfrg snot niwm'  # Gmail de uygulama sifresi olusturmalisin
+app.config['MAIL_PASSWORD'] = 'your-gmail-password'  # Gmail de uygulama sifresi olusturmalisin
 
 mail = Mail(app)        # Bu kisim
 
