@@ -15,26 +15,23 @@
     <td><a href="" align="center">----------->Akif Güngör<----------</a></td>
   </tr>
   <tr>
-          <td style="text-align: center; width: 67%;">
-        <a href="https://github.com/Herr-Aksoy">
-          <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40' title='Github Profile'>
-        </a>
-        <a href="https://www.linkedin.com/in/aksoy-ahmet/">
-          <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40' title='Linkedin Profile'>
-        </a>
-        <a href="https://www.instagram.com/updated_devops?igsh=N3kxOWMwdDhsaTZl">
-          <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40' title='Instagram Profile'>
-        </a>
-        <a href="https://www.xing.com/profile/Ahmet_Aksoy68/web_profiles?expandNeffi=true">
-          <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/xing.svg' alt='xing' height='40' title='Xing Profile'>
-        </a>
-        <!-- <a href="https://portfolio1.awspublic.link">
-          <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40' title='Project1'>
-        </a> -->
-      </td>
-    <td><a href="https://www.linkedin.com/in/mehmet8sever/" title="LinkedIn Profile">---------->Mehmet Sever<---------</a></td>
-    <td><a href="https://www.linkedin.com/in/akifgungor/" title="LinkedIn Profile">----------->Akif Güngör<----------</a></td>
-  </tr>
+  <td align="center" style="width: 67%;">
+    <a href="https://github.com/Herr-Aksoy">
+      <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40' title='Github Profile'>
+    </a>
+    <a href="https://www.linkedin.com/in/aksoy-ahmet/">
+      <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40' title='Linkedin Profile'>
+    </a>
+    <a href="https://www.instagram.com/updated_devops?igsh=N3kxOWMwdDhsaTZl">
+      <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40' title='Instagram Profile'>
+    </a>
+    <a href="https://www.xing.com/profile/Ahmet_Aksoy68/web_profiles?expandNeffi=true">
+      <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/xing.svg' alt='xing' height='40' title='Xing Profile'>
+    </a>
+  </td>
+  <td align="center"><a href="https://www.linkedin.com/in/mehmet8sever/" title="LinkedIn Profile">---------->Mehmet Sever<---------</a></td>
+  <td align="center"><a href="https://www.linkedin.com/in/akifgungor/" title="LinkedIn Profile">----------->Akif Güngör<----------</a></td>
+</tr>
 </table>
 <br><br>
 <table>
