@@ -9,6 +9,11 @@
     <td><img src="project-images/readme-images/MehmetSever.png" alt="Mehmet Sever" width="250"></td>
     <td><img src="project-images/readme-images/AkifGüngör.png" alt="Akif Güngör" width="250"></td>
   </tr>
+    <tr>
+    <td><a href="" align="center">---------->Ahmet Aksoy<---------</a></td>
+    <td><a href="" align="center">---------->Mehmet Sever<---------</a></td>
+    <td><a href="" align="center">----------->Akif Güngör<----------</a></td>
+  </tr>
   <tr>
           <td style="text-align: center; width: 67%;">
         <a href="https://github.com/Herr-Aksoy">
