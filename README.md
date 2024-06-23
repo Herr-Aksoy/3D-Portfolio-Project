@@ -65,7 +65,7 @@
     <td colspan="3"><img src="project-images/readme-images/contributions.png" alt="Contributions to main" width="850"></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Herr-Aksoy/3D-Portfolio-Project/graphs/contributors" title="More information" align="center" >Contributions to main, excluding merge commits</a></td>
+    <td align="center"><a href="https://github.com/Herr-Aksoy/3D-Portfolio-Project/graphs/contributors" title="More information" >Contributions to main, excluding merge commits</a></td>
   </tr>
 </table>
   
