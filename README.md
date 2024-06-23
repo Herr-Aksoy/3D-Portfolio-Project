@@ -12,7 +12,7 @@
   <tr>
     <td><a href="https://www.linkedin.com/in/aksoy-ahmet/" title="LinkedIn Profile">---------->Ahmet Aksoy<----------</a></td>
     <td><a href="https://www.linkedin.com/in/mehmet8sever/" title="LinkedIn Profile">---------->Mehmet Sever<---------</a></td>
-    <td><a href="" title="LinkedIn Profile">----------->Akif Güngör<----------</a></td>
+    <td><a href="https://www.linkedin.com/in/akifgungor/" title="LinkedIn Profile">----------->Akif Güngör<----------</a></td>
   </tr>
 </table>
 <br><br>

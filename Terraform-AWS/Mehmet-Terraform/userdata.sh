@@ -10,7 +10,7 @@ curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compo
 chmod +x /usr/local/bin/docker-compose
 yum install git -y
 
-# pip icin ekstra ayarlamalar
-sudo yum install python3 python3-pip -y
-sudo pip install Flask
-sudo pip install Flask-Mail
+# pip icin ekstra ayarlamalar   - image saglikli olup olmadigini denemek icin. SOnrasinda ihtiyac degil.
+# sudo yum install python3 python3-pip -y
+# sudo pip install Flask
+# sudo pip install Flask-Mail
