@@ -1,8 +1,9 @@
 
 <p align="center">
-  <img src="https://github.com/Herr-Aksoy/3D-Portfolio-Project/blob/main/project-images/readme-gif/title.gif" width="700" height="250"/>
-  <p >3D-Portfolio-Project</p>
+  <img src="https://github.com/Herr-Aksoy/3D-Portfolio-Project/blob/main/project-images/readme-gif/title.gif" width="700" height="250"/>  
 </p>
+
+<p align="center">3D-Portfolio-Project</p>
 
 
 <br><br>
