@@ -1,5 +1,10 @@
 # 3D-Portfolio-Project
 
+<p align="center">
+  <img src="https://github.com/Herr-Aksoy/3D-Portfolio-Project/blob/main/project-images/readme-gif/title.mp4" width="400" height="300"/>
+</p>
+
+
 <br><br>
 
 ## Project Owners
