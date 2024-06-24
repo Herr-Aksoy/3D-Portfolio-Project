@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">3D-Portfolio-Project</p>
-
+<p style="font-size: 32px; font-weight: bold; margin-top: 20px;">3D-Portfolio-Project</p>
 
 <br><br>
 
