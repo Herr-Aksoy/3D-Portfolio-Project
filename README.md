@@ -175,9 +175,9 @@ We go to Repo > Setting > Secrets and variables > Actions and create "New reposi
 
 # Working process of the project
 
-## 3D-Portfolio-Project.py Dosyasını Düzenleyin:
+## a-Edit 3D-Portfolio-Project.py File:
 
-Gerekli bilgileri 3D-Portfolio-Project.py dosyasına girin.
+Enter the required information in the 3D-Portfolio-Project.py file.
 
 
 ### Creating an Application Password
@@ -246,11 +246,33 @@ if __name__ == '__main__':
 
 ```
 
+## b-Configure the build-and-push.yml File:
 
-```sh
+Add your own Docker Image Repository to the **build-and-push.yml** file.
+
+## c-Creating and Submitting Images with GitHub Actions:
+
+Run the **build-and-push.yml** file from the Action section of the GitHub repo.  
+GitHub Actions will create a Docker image for you and automatically push it to the specified repository.
+
+## d-Terraform Configuration:
+
+Run the **main.tf** file by making the necessary changes in the **userdata.sh** file.
+
+## e-Running Docker Container Automatically:
+
+Normally, you can run the Docker container manually by making an SSH connection to EC2. However, we can add it as a command to the user data to automate this.  
+
+To do this, update the **docker run** command written in the user data according to your needs.  
+
+By following these steps you can automatically install and run your application.
 
 
-```
+
+<!-- ```sh
+
+
+``` -->
 
 
 
