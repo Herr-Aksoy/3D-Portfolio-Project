@@ -64,12 +64,20 @@ resource "aws_security_group" "tf-PP-sg" {
   }
 }
 
-output "Project-Portfolio-SSH-connect" {
-  value = "ssh ec2-user@${aws_instance.Project-Portfolio.public_ip} -i ${local_file.PPkey.filename}"
+output "Live-Project" {
+  value = "${aws_instance.Project-Portfolio.public_ip}"
 }
 
-output "Docker-Run-Conteiner-Project" {
-  value = "docker run --name 3D-Portolio-Project -d -p 80:8080 --rm herraksoy/projects:3D-Portfolio-Website"
-}
+
+# Test asamasinda kullanildi
+# Used in testing phase
+
+# output "Project-Portfolio-SSH-connect" {
+#   value = "ssh ec2-user@${aws_instance.Project-Portfolio.public_ip} -i ${local_file.PPkey.filename}"
+# }
+
+# output "Docker-Run-Conteiner-Project" {
+#   value = "docker run --name 3D-Portolio-Project -d -p 80:8080 --rm herraksoy/projects:3D-Portfolio-Website"
+# }
 
 
