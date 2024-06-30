@@ -173,9 +173,76 @@ We go to Repo > Setting > Secrets and variables > Actions and create "New reposi
 ![parameters](project-images/repo-images/repo-secrets.png)
 
 
+# Working process of the project
+
+## 3D-Portfolio-Project.py Dosyasını Düzenleyin:
+
+Gerekli bilgileri 3D-Portfolio-Project.py dosyasına girin.
+
+
+### Creating an Application Password
+
+### 1-Sign In to Your Google Account:
+
+Go to the Google Account Settings page and sign in to your Google account.
+
+### 2-Going to Security Settings:
+
+Click on the "Security" tab in the left menu.
+
+### 3-Creating Application Passwords:
+
+In the "Signing in to Google" section, click "App passwords".
+This option will only appear if two-step verification is enabled. If two-step verification is not enabled, you must perform this action.
+If two-step verification is enabled, go to the "App Passwords" page and create a password for the app and device you want to use (for example, "Mail" and "Computer").
+
+### 4-Using App Password:
+
+Copy the generated app password and use this password as app.config['MAIL_PASSWORD'].
 
 ```sh
 
+from flask import Flask, render_template, request, url_for
+from flask_mail import Mail, Message
+
+app = Flask(__name__)
+
+# Flask-Mail configuration
+
+app.config['MAIL_SERVER'] = 'smtp.gmail.com'
+app.config['MAIL_PORT'] = 587
+app.config['MAIL_USE_TLS'] = True
+app.config['MAIL_USERNAME'] = 'your-gmail-adress' # Email recipient
+app.config['MAIL_PASSWORD'] = 'your-gmail-password'  # You must create an application password in Gmail
+
+mail = Mail(app)        
+
+@app.route('/')
+def home():
+    return render_template('3D-Portfolio-Project.html')
+
+@app.route('/send-email', methods=['POST'])             
+def send_email():
+    if request.method == 'POST':
+        full_name = request.form['full_name']
+        email = request.form['email']
+        message = request.form['message']
+
+        # Email sending process
+        try:
+            msg = Message(subject='New Contact Form Submission',
+                          sender=app.config['MAIL_USERNAME'],
+                          recipients=['your-gmail-adress'])  # Email recipient
+
+            msg.body = f"Name: {full_name}\nEmail: {email}\nMessage:\n{message}"
+
+            mail.send(msg)
+            return 'The e-mail was sent successfully!'
+        except Exception as e:
+            return f'Error occurred: {str(e)}'
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8080)
 
 ```
 
@@ -186,13 +253,7 @@ We go to Repo > Setting > Secrets and variables > Actions and create "New reposi
 ```
 
 
-# Video-1 30 dk
 
-Source kodlar kullanilan iconlar 
-
-https://boxicons.com/
-
-adresinden alinmistir
 
 
 
