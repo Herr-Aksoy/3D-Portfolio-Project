@@ -30,34 +30,67 @@ jobs:
       run: docker push ${{ secrets.DOCKER_USERNAME }}/team-projects:Responsive-Website-Design
 
 
-# name: Deploy to Docker Repository
+  terraform-apply:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./Terraform-AWS
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-# on:
-#   workflow_dispatch:
-
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
-
-#     steps:
-#     - name: Checkout repository
-#       uses: actions/checkout@v2
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1 
       
-#     - name: Build the Docker image
-#       run: docker build -t docker.io/herraksoy/projects:3D-Portfolio-Website -f Src-Image/Dockerfile Src-Image  
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-#     - name: Docker Login
-#       run: docker login --username ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PWD }}
+      - name: Install Terraform
+        uses: hashicorp/setup-terraform@v1
+        with:
+          terraform_version: 1.8.4
 
-#     - name: Push Docker image to Dockerhub Public Repo
-#       run: docker push docker.io/herraksoy/projects:3D-Portfolio-Website   # docker.io may not be written
+      - name: Terraform Init
+        run: terraform init
+        continue-on-error: true
 
-#     - name: Update Docker Image Tag
-#       run: docker tag herraksoy/projects:3D-Portfolio-Website herraksoy/team-projects:3D-Portfolio-Website
+      - name: Terraform Apply
+        run: terraform apply -auto-approve
+        continue-on-error: true
 
-#     - name: Push Docker image to Dockerhub Privat Repo
-#       run: docker push docker.io/herraksoy/team-projects:3D-Portfolio-Website
+      - name: Copy Terraform State Files
+        run: |
+          mkdir -p terraform-state
+          cp -R ./*.tfstate ./terraform-state/
+          cp -R ./*.pem ./terraform-state/
+          terraform output > terraform-outputs.txt
+          sed -n '2,4p' terraform-outputs.txt > outputs-terraform.txt
+          cp outputs-terraform.txt ./terraform-state/
+        continue-on-error: true
 
+      - name: Commit and Push Terraform State Changes
+        run: |
+          git clone git@github.com:Herr-Aksoy/3D-Portfolio-Project.git
+          cp -r ./terraform-state ./3D-Portfolio-Project/Terraform-AWS
+          cd 3D-Portfolio-Project
+          git config --global user.email "mat.aksoy06@gmail.com"
+          git config --global user.name "Herr-Aksoy"
+          git add .
+          git commit -m "Github Action- Added terraform-state folder"
+          git push origin main
+        continue-on-error: true
+
+      - name: Terraform Destroy if Apply failed
+        if: failure()
+        run: terraform destroy -auto-approve
 
 
 
