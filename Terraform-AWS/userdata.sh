@@ -14,7 +14,7 @@ yum install git -y
 # Projenin calistirilmasi
 # Running the project
 
-yum docker run --name 3D-Portolio-Project -d -p 80:8080 --rm herraksoy/projects:3D-Portfolio-Website
+docker run --name 3D-Portolio-Project -d -p 80:8080 --rm herraksoy/projects:3D-Portfolio-Website
 
 
 # pip icin ekstra ayarlamalar   - image saglikli olup olmadigini denemek icin. SOnrasinda ihtiyac degil.
