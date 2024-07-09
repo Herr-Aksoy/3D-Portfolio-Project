@@ -70,11 +70,11 @@ jobs:
       - name: Copy Terraform State Files
         run: |
           mkdir -p terraform-state
-          cp -R ./*.tfstate ./terraform-state/
-          cp -R ./*.pem ./terraform-state/
           terraform output > terraform-outputs.txt
           sed -n '2p' terraform-outputs.txt > outputs-terraform.txt
           cp outputs-terraform.txt ./terraform-state/
+          cp -R ./*.pem ./terraform-state/
+          cp -R ./*.tfstate ./terraform-state/
         continue-on-error: false
 
       - name: Commit and Push Terraform State Changes
