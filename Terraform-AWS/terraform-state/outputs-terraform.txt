@@ -1,3 +1,0 @@
-Live-Project = "54.234.48.132"
-::debug::Terraform exited with code 0.
-::debug::stdout: Live-Project = "54.234.48.132"%0A
