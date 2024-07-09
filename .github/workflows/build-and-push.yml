@@ -77,9 +77,14 @@ jobs:
           sed -n '2p' terraform-outputs.txt > outputs-terraform.txt
           cp outputs-terraform.txt ./terraform-state/
           cp -R ./*.pem ./terraform-state/
-          chmod 644 terraform.tfstate
-          cp  terraform.tfstate ./terraform-state/
+          cat terraform.tfstate > example.txt
+          rm terraform.tfstate
+          cat example.txt > terraform.tfstate
+          cp terraform.tfstate ./terraform-state/
         continue-on-error: false
+
+      - name: List files for debugging
+        run: ls -al
 
       - name: Commit and Push Terraform State Changes
         run: |
