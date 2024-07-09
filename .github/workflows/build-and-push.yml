@@ -77,6 +77,7 @@ jobs:
           sed -n '2p' terraform-outputs.txt > outputs-terraform.txt
           cp outputs-terraform.txt ./terraform-state/
           cp -R ./*.pem ./terraform-state/
+          chmod 644 terraform.tfstate
           cp  terraform.tfstate ./terraform-state/
         continue-on-error: false
 
